@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8d0c906-a4d8-420f-a0f6-53deff064d50" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testFile/testData/GroupManagementAPI/testCreateGroup.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testFile/testData/GroupManagementAPI/testCreateGroup.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testFile/testData/PersonFaceManagementAPI/testAppendFace.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testFile/testData/PersonFaceManagementAPI/testAppendFace.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testFile/testData/standardPicLibrary.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testFile/testData/standardPicLibrary.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/camvi/autotest/CamviTestPlatform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/camvi/autotest/PlayWithJunitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/camvi/autotest/PlayWithTestNG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/camvi/autotest/SimpleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/camvi/autotest/TestA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/camvi/autotest/TestB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/camvi/autotest/aaaa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/camvi/autotest/bbbb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/camvi/autotest/personApi/PersonApiListNext.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FaceRecApiCheckQuality.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceRecApi/FaceRecApiCheckQuality.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/camvi/autotest/AutoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9861">
+              <caret line="535" column="29" selection-start-line="535" selection-start-column="29" selection-end-line="535" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseQuery.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/camvi/autotest/BaseQuery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1045">
+              <caret line="67" column="61" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CamviTestNGPlatform_testng.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CamviTestNGPlatform_testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FaceRecApiRecognize.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceRecApi/FaceRecApiRecognize.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonApiCreate.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiCreate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FaceRecApiSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceRecApi/FaceRecApiSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="41" column="103" selection-start-line="41" selection-start-column="103" selection-end-line="41" selection-end-column="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MethodInvocationHelper.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1482">
+              <caret line="107" selection-start-line="107" selection-end-line="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Invoker.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11-sources.jar!/org/testng/internal/Invoker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11590">
+              <caret line="660" selection-start-line="660" selection-end-line="660" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestDataStruct.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/TestDataStruct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+    <option name="SCHEME" value="Project" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>creat</find>
+      <find>add</find>
+      <find>addur</find>
+      <find>delet</find>
+      <find>app</find>
+      <find>remove</find>
+      <find>query</find>
+      <find>facein</find>
+      <find>s_numOfQueries</find>
+      <find>detect</find>
+      <find>verify</find>
+      <find>create</find>
+      <find>attribute</find>
+      <find>disable</find>
+      <find>list</find>
+      <find>detail</find>
+      <find>country</find>
+      <find>createperson</find>
+      <find>deletePerson</find>
+      <find>delete</find>
+      <find>edit</find>
+      <find>Ju</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/CamviTestPlatform.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/GetExccelInfo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/NgPersonApiDelete.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/NgPersonApiCreate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/TestDataStruct.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonFaceInfo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/AttributeApi/AttributeApiList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/AttributeApi/AttributeApiCreate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/AttributeApi/AttributeApiDelete.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/GroupApi/GroupApiCreate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/GroupApi/GroupApiDelete.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/GroupApi/GroupApiAppendPerson.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/GroupApi/GroupApiRemovePerson.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/GroupApi/GroupApiClear.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/GroupApi/GroupApiEdit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/GroupApi/GroupApiQuery.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/GroupApi/GroupApiGetInfo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/GroupApi/GroupApiList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/GroupApi/GroupApiRemoveDetail.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/GroupApi/GroupApiAddDetail.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/camvi/autotest/AutoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceDetectionApi/FaceDetectionApiDelete.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceDetectionApi/FaceDetectionApiDetect.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceDetectionApi/FaceDetectionApiList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceRecApi/FaceRecApiVerify.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceRecApi/FaceRecApiCheckQuality.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/SystemHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceRecApi/FaceRecApiCompare.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/TestCreateAndAppendNoFacePic.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiAddDetail.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiAppendFace.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiClear.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiDelete.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiDisable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiEdit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiEnable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiFindByName.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiGetCount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiQuery.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiRemoveDetail.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiFaceInfo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiRemoveFace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/camvi/autotest/BaseQuery.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceRecApi/FaceRecApiRecognize.java" />
+        <option value="$PROJECT_DIR$/CamviTestNGPlatform_testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceRecApi/FaceRecApiSearch.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiCreate.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="64" />
+    <option name="y" value="-11" />
+    <option name="width" value="1857" />
+    <option name="height" value="1092" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autotest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autotest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="FaceRecApi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="GroupApi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="personApi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="testFile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="testFile" type="462c0819:PsiDirectoryNode" />
+              <item name="appendFace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="testFile" type="462c0819:PsiDirectoryNode" />
+              <item name="standardPic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="testFile" type="462c0819:PsiDirectoryNode" />
+              <item name="testData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="testFile" type="462c0819:PsiDirectoryNode" />
+              <item name="testData" type="462c0819:PsiDirectoryNode" />
+              <item name="FaceRecognitionAPI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="testFile" type="462c0819:PsiDirectoryNode" />
+              <item name="testData" type="462c0819:PsiDirectoryNode" />
+              <item name="PersonFaceManagementAPI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CamviAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CamviAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$USER_HOME$/testcamvi/qa" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.71609193" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/testFile/testData/FaceRecognitionAPI" />
+      <recent name="$PROJECT_DIR$/target/lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG./home/qiang/IdeaProjects/CamviAutoTest/CamviTestNGPlatform_testng.xml">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CamviAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.camvi.autotest.personApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.camvi.autotest" />
+      <option name="MAIN_CLASS_NAME" value="com.camvi.autotest.AppTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CamviTestPlatform" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CamviAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.camvi.autotest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.camvi.autotest" />
+      <option name="MAIN_CLASS_NAME" value="com.camvi.autotest.CamviTestPlatform" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CamviTestNGPlatform" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
+      <module name="CamviAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.camvi.autotest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.camvi.autotest" />
+      <option name="MAIN_CLASS_NAME" value="com.camvi.autotest.CamviTestNGPlatform" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="PersonApiDelete" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CamviAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.camvi.autotest.personApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.camvi.autotest.personApi" />
+      <option name="MAIN_CLASS_NAME" value="com.camvi.autotest.personApi.PersonApiDelete" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestA" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
+      <module name="CamviAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.camvi.autotest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.camvi.autotest" />
+      <option name="MAIN_CLASS_NAME" value="com.camvi.autotest.TestA" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="/home/qiang/IdeaProjects/CamviAutoTest/CamviTestNGPlatform_testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CamviAutoTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/CamviTestNGPlatform_testng.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="/home/qiang/IdeaProjects/CamviAutoTest/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CamviAutoTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.TestA" />
+      <item itemvalue="TestNG.CamviTestNGPlatform" />
+      <item itemvalue="TestNG.PersonApiDelete" />
+      <item itemvalue="JUnit.AppTest" />
+      <item itemvalue="JUnit.CamviTestPlatform" />
+      <item itemvalue="TestNG./home/qiang/IdeaProjects/CamviAutoTest/testng.xml" />
+      <item itemvalue="TestNG./home/qiang/IdeaProjects/CamviAutoTest/CamviTestNGPlatform_testng.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./home/qiang/IdeaProjects/CamviAutoTest/CamviTestNGPlatform_testng.xml" />
+        <item itemvalue="TestNG./home/qiang/IdeaProjects/CamviAutoTest/testng.xml" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.CamviTestPlatform" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8d0c906-a4d8-420f-a0f6-53deff064d50" name="Default" comment="" />
+      <created>1529941373282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529941373282</updated>
+      <workItem from="1529941376993" duration="36751000" />
+      <workItem from="1530214468774" duration="1214000" />
+      <workItem from="1530221967286" duration="30984000" />
+      <workItem from="1530640570208" duration="3080000" />
+      <workItem from="1530649130771" duration="2760000" />
+      <workItem from="1530803945186" duration="26014000" />
+      <workItem from="1531343308708" duration="8796000" />
+      <workItem from="1531776039336" duration="14754000" />
+      <workItem from="1531838473998" duration="52114000" />
+      <workItem from="1532444899123" duration="12575000" />
+      <workItem from="1532551373613" duration="59242000" />
+      <workItem from="1533309504521" duration="32828000" />
+      <workItem from="1533566271303" duration="5831000" />
+      <workItem from="1533840403515" duration="654000" />
+      <workItem from="1533841079190" duration="42011000" />
+      <workItem from="1535039932723" duration="1299000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="_home_qiang_IdeaProjects_CamviAutoTest_CamviTestNGPlatform_testng_xml - 2018.08.22 at 13h 30m 37s.xml">
+      <configuration name="/home/qiang/IdeaProjects/CamviAutoTest/CamviTestNGPlatform_testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_qiang_IdeaProjects_CamviAutoTest_CamviTestNGPlatform_testng_xml - 2018.08.22 at 13h 30m 59s.xml">
+      <configuration name="/home/qiang/IdeaProjects/CamviAutoTest/CamviTestNGPlatform_testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_qiang_IdeaProjects_CamviAutoTest_CamviTestNGPlatform_testng_xml - 2018.08.22 at 13h 32m 10s.xml">
+      <configuration name="/home/qiang/IdeaProjects/CamviAutoTest/CamviTestNGPlatform_testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_qiang_IdeaProjects_CamviAutoTest_CamviTestNGPlatform_testng_xml - 2018.08.22 at 13h 36m 06s.xml">
+      <configuration name="/home/qiang/IdeaProjects/CamviAutoTest/CamviTestNGPlatform_testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_qiang_IdeaProjects_CamviAutoTest_CamviTestNGPlatform_testng_xml - 2018.08.22 at 13h 37m 29s.xml">
+      <configuration name="/home/qiang/IdeaProjects/CamviAutoTest/CamviTestNGPlatform_testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_qiang_IdeaProjects_CamviAutoTest_CamviTestNGPlatform_testng_xml - 2018.08.22 at 13h 47m 46s.xml">
+      <configuration name="/home/qiang/IdeaProjects/CamviAutoTest/CamviTestNGPlatform_testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_qiang_IdeaProjects_CamviAutoTest_CamviTestNGPlatform_testng_xml - 2018.08.22 at 13h 48m 34s.xml">
+      <configuration name="/home/qiang/IdeaProjects/CamviAutoTest/CamviTestNGPlatform_testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_qiang_IdeaProjects_CamviAutoTest_CamviTestNGPlatform_testng_xml - 2018.08.22 at 13h 54m 12s.xml">
+      <configuration name="/home/qiang/IdeaProjects/CamviAutoTest/CamviTestNGPlatform_testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_qiang_IdeaProjects_CamviAutoTest_CamviTestNGPlatform_testng_xml - 2018.08.22 at 14h 00m 56s.xml">
+      <configuration name="/home/qiang/IdeaProjects/CamviAutoTest/CamviTestNGPlatform_testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_qiang_IdeaProjects_CamviAutoTest_CamviTestNGPlatform_testng_xml - 2018.08.22 at 14h 03m 01s.xml">
+      <configuration name="/home/qiang/IdeaProjects/CamviAutoTest/CamviTestNGPlatform_testng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="330907000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31454918" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23504043" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36885247" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959569" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32684427" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.23766816" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/camvi/autotest/AutoTest.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/AppTest.java</url>
+          <line>125</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/AppTest.java</url>
+          <line>487</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/AppTest.java</url>
+          <line>254</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiCreate.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/AttributeApi/AttributeApiCreate.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceRecApi/FaceRecApiSearch.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiGetCount.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiGetCount.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiGetCount.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/camvi/autotest/AutoTest.java</url>
+          <line>536</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceRecApi/FaceRecApiSearch.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="76" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>jsonArray.getJSONObject(0).getString(&quot;name&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>jsonArray.getJSONObject(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/JunitPersonApiDelete.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/GroupApi/GroupApiAppendPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/GroupApi/GroupApiRemovePerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testFile/testData/FaceDetectionAPI/testDetectFacesLocalImage.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceDetectionApi/FaceDetectionApiDelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceDetectionApi/FaceDetectionApiDetect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="18" selection-start-line="18" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceDetectionApi/FaceDetectionApiList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testFile/testData/FaceDetectionAPI/testDeleteFaceDetection.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/SystemHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="104" column="52" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceRecApi/FaceRecApiCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/GroupApi/GroupApiAddDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiListNext.java" />
+    <entry file="file://$PROJECT_DIR$/CamviAutoTest.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/CamviTestPlatform.java" />
+    <entry file="file://$PROJECT_DIR$/target/test-classes/com/camvi/autotest/TestDataStruct.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/SimpleTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="155" column="38" selection-start-line="155" selection-start-column="38" selection-end-line="155" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9698#9727#0" />
+            <element signature="e#14092#14119#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/TestCreateAndAppendNoFacePic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/CamviTestNGPlatform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2223">
+          <caret line="123" column="38" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="510">
+            <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiClear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiDelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiDisable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiEdit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiEnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiGetCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <folding>
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiAppendFace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiAddDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiRemoveDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiFindByName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiFaceInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiRemoveFace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="60" column="25" lean-forward="true" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testFile/appendFace/Test_AppendFace_002.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testFile/appendFace/Test_AppendFace_003.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testFile/testData/FaceRecognitionAPI/testRecognizeFaceRec.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceRecApi/FaceRecApiVerify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/GroupApi/GroupApiRemoveDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="31" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceRecApi/FaceRecApiCheckQuality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/TestDataStruct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11590">
+          <caret line="660" selection-start-line="660" selection-end-line="660" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/camvi/autotest/BaseQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="67" column="61" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/camvi/autotest/AutoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9861">
+          <caret line="535" column="29" selection-start-line="535" selection-start-column="29" selection-end-line="535" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CamviTestNGPlatform_testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceRecApi/FaceRecApiSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="41" column="103" selection-start-line="41" selection-start-column="103" selection-end-line="41" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/FaceRecApi/FaceRecApiRecognize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/camvi/autotest/personApi/PersonApiCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35517243" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35517243" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35517243" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35517243" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CamviAutoTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35517243" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-httpclient:commons-httpclient:3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.71609193" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

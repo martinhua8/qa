@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuit1" duration-ms="1705" started-at="2018-08-21T18:49:30Z" finished-at="2018-08-21T18:49:32Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="1705" started-at="2018-08-21T18:49:30Z" finished-at="2018-08-21T18:49:32Z">
+      <class name="com.camvi.autotest.CamviTestNGPlatform">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.camvi.autotest.CamviTestNGPlatform@68c4039c]" name="BeforeSuite" is-config="true" duration-ms="5" started-at="2018-08-21T14:49:30Z" finished-at="2018-08-21T14:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.camvi.autotest.CamviTestNGPlatform@68c4039c]" name="setUp" is-config="true" duration-ms="47" started-at="2018-08-21T14:49:30Z" finished-at="2018-08-21T14:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.camvi.autotest.CamviTestNGPlatform@68c4039c]" name="BeforeTest" is-config="true" duration-ms="0" started-at="2018-08-21T14:49:30Z" finished-at="2018-08-21T14:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.camvi.autotest.CamviTestNGPlatform@68c4039c]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-08-21T14:49:30Z" finished-at="2018-08-21T14:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.camvi.autotest.CamviTestNGPlatform@68c4039c]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-08-21T14:49:30Z" finished-at="2018-08-21T14:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.camvi.autotest.CamviTestNGPlatform@68c4039c]" name="test" duration-ms="5" started-at="2018-08-21T14:49:30Z" finished-at="2018-08-21T14:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.camvi.autotest.CamviTestNGPlatform@68c4039c]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-21T14:49:30Z" finished-at="2018-08-21T14:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.camvi.autotest.CamviTestNGPlatform@68c4039c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-08-21T14:49:30Z" finished-at="2018-08-21T14:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.camvi.autotest.CamviTestNGPlatform@68c4039c]" name="AfterTest" is-config="true" duration-ms="1" started-at="2018-08-21T14:49:32Z" finished-at="2018-08-21T14:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:com.camvi.autotest.CamviTestNGPlatform@68c4039c]" name="AfterSuite" is-config="true" duration-ms="0" started-at="2018-08-21T14:49:32Z" finished-at="2018-08-21T14:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- com.camvi.autotest.CamviTestNGPlatform -->
+      <class name="com.camvi.autotest.personApi.PersonApiCreate">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.camvi.autotest.personApi.PersonApiCreate@ae45eb6]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-08-21T14:49:30Z" finished-at="2018-08-21T14:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.camvi.autotest.personApi.PersonApiCreate@ae45eb6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-08-21T14:49:31Z" finished-at="2018-08-21T14:49:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test(com.camvi.autotest.TestDataStruct)[pri:0, instance:com.camvi.autotest.personApi.PersonApiCreate@ae45eb6]" name="test" duration-ms="592" started-at="2018-08-21T14:49:31Z" data-provider="PersonApiCreateTestData" finished-at="2018-08-21T14:49:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.camvi.autotest.TestDataStruct@58ea606c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.camvi.autotest.TestDataStruct)[pri:0, instance:com.camvi.autotest.personApi.PersonApiCreate@ae45eb6]" name="test" duration-ms="151" started-at="2018-08-21T14:49:31Z" data-provider="PersonApiCreateTestData" finished-at="2018-08-21T14:49:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.camvi.autotest.TestDataStruct@671a5887]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.camvi.autotest.personApi.PersonApiCreate@ae45eb6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-08-21T14:49:31Z" finished-at="2018-08-21T14:49:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.camvi.autotest.personApi.PersonApiCreate@ae45eb6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-08-21T14:49:31Z" finished-at="2018-08-21T14:49:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.camvi.autotest.personApi.PersonApiCreate@ae45eb6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-08-21T14:49:31Z" finished-at="2018-08-21T14:49:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test(com.camvi.autotest.TestDataStruct)[pri:0, instance:com.camvi.autotest.personApi.PersonApiCreate@ae45eb6]" name="test" duration-ms="493" started-at="2018-08-21T14:49:31Z" data-provider="PersonApiCreateTestData" finished-at="2018-08-21T14:49:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.camvi.autotest.TestDataStruct@6497b078]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.camvi.autotest.personApi.PersonApiCreate@ae45eb6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-08-21T14:49:31Z" finished-at="2018-08-21T14:49:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.camvi.autotest.personApi.PersonApiCreate@ae45eb6]" name="afterClass" is-config="true" duration-ms="58" started-at="2018-08-21T14:49:32Z" finished-at="2018-08-21T14:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.camvi.autotest.personApi.PersonApiCreate@ae45eb6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-08-21T14:49:32Z" finished-at="2018-08-21T14:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.camvi.autotest.personApi.PersonApiCreate -->
+    </test> <!-- test1 -->
+  </suite> <!-- TestSuit1 -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuit1]">
+  <test name="test1(failed)">
+    <classes>
+      <class name="com.camvi.autotest.personApi.PersonApiCreate">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="test"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.camvi.autotest.personApi.PersonApiCreate -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [TestSuit1] -->
