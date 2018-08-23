@@ -20,6 +20,7 @@ public class PersonApiList {
 
     @Test
     public void testList() {
+        System.out.println("testing list");
         String result = tester.listPersonWithinGroup("1");
         String[] faceIdArray = result.substring(1,result.length()-1).split(",");
         ArrayList<Integer> faceIdList = new ArrayList<>();

@@ -30,6 +30,7 @@ public class PersonApiAppendFace {
 
     @Test(dependsOnMethods = "testAppendFace")
     public void test() throws JSONException {
+        System.out.println("testing append face");
         String result = tester.query(personIdList.get(0));
         JSONObject jsonObject = new JSONObject(result);
         JSONArray jsonArray = jsonObject.getJSONArray("faces");

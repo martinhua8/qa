@@ -18,6 +18,7 @@ public class PersonApiEdit {
 
     @Test
     public void testEdit() throws JSONException {
+        System.out.println("testing edit");
         tester.edit(personIdList.get(0).toString(),"camvi");
         String result = tester.query(personIdList.get((0)));
         Assert.assertEquals("camvi",SystemHelper.getPersonNameByJsonResult(result));

@@ -30,7 +30,7 @@ public class PersonApiDelete {
 
     @Test(dependsOnMethods = {"testCreate"})
     public void testDelete(){
-        //int a =1/0;
+        System.out.println("testing delete");
         for (int i = 0; i < personIdList.size(); i++) {
             tester.deletePerson(personIdList.get(i));
             try {

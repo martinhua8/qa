@@ -27,6 +27,7 @@ public class PersonApiClear {
 
     @Test(dependsOnMethods = "appendFace")
     public void test() throws JSONException {
+        System.out.println("testing clear");
         String result = tester.query(personIdList.get(0));
         JSONObject jsonObject = new JSONObject(result);
         String faceId = jsonObject.get("faces").toString();

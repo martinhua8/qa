@@ -68,11 +68,36 @@ Give an example
 ```
 PersonApiCreate, FaceRecApiRecognize specified in the xml will get executes which have TestNG annotations.\
 CamviTestNGPlatform class is used to connect to the server, so please keep it and add classes you want to test after that.\
-There is no difference between individual test and multiple test in one suit, all you need do is add class names between the classes tags.
+
+
+####How to test all the classes in one package
+write a xml file as following:
+```
+Give an example
+----------------------------------------------------------------------
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuit1">
+
+    <test name="test1">
+        <classes>
+            <class name="com.camvi.autotest.CamviTestNGPlatform"/>
+        </classes>
+    </test>
+
+    <test name="test2">
+        <packages>
+            <package name="com.camvi.autotest.personApi.*"/>
+        </packages>
+    </test>
+
+</suite>
+```
+
 
 ####How to write test class
 
-Documentaion of TestNG is [here](http://testng.org/doc/documentation-main.html#introduction)\
+Documentaion of TestNG is [here](http://testng.org/doc/documentation-main.html#introduction)  
 You can find a quick example on the [Welcome page](http://testng.org/doc/index.html)
 
 Some annotations used in test\

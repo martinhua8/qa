@@ -19,6 +19,7 @@ public class PersonApiAddDetail {
 
     @Test()
     public void test() throws JSONException {
+        System.out.println("testing add detail");
         String result = tester.addDetailPersonManagement(personIdList.get(0).toString(),"Test_Key","Test_Value");
         Assert.assertEquals("Test_Key",new JSONObject(result).getString("key set"));
         result = tester.query(personIdList.get(0));

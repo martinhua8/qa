@@ -18,13 +18,13 @@ public class FaceRecApiRecognize {
 
     @Test(dataProvider = "TestData")
     public void test(TestDataStruct data) throws JSONException {
-        String result = tester.recognizeFaceRec("0",data.get(0));
+        String result = tester.recognizeFaceRec("1",data.get(0));
         Assert.assertEquals("Unit_Test_001",new JSONObject(result).getString("name"));
     }
 
     @DataProvider(name = "TestData")
     public static Object[][] objectTestData() throws IOException, InvalidFormatException {
-        return SystemHelper.getTestData("src/test/testFile/testData/PersonFaceManagementAPI/testAppendFace.xlsx");
+        return SystemHelper.getTestData("src/test/testFile/testData/FaceRecognitionAPI/testRecognize.xlsx");
     }
 
 
@@ -36,5 +36,10 @@ public class FaceRecApiRecognize {
     @BeforeClass
     public void setUp() throws JSONException, InvalidFormatException, IOException {
         SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.xlsx", tester, personIdList);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

@@ -17,6 +17,7 @@ public class PersonApiDisable {
 
     @Test
     public void testDisable() throws JSONException {
+        System.out.println("testing disable");
         for (int i = 0;i<personIdList.size();i++) {
             tester.disablePerson(personIdList.get(i).toString());
             String result = tester.query(personIdList.get((i)));

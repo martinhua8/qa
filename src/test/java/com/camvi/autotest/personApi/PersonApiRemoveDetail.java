@@ -19,6 +19,7 @@ public class PersonApiRemoveDetail {
 
     @Test
     public void test() throws JSONException {
+        System.out.println("testing remove detail");
         tester.addDetailPersonManagement(personIdList.get(0).toString(),"Test_Key","Test_Value");
         String result = tester.query(personIdList.get(0));
         JSONObject jsonObject = new JSONObject(result);

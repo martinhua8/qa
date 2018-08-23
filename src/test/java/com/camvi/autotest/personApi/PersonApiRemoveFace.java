@@ -20,6 +20,7 @@ public class PersonApiRemoveFace {
     @Test(dataProvider = "TestData")
     public void createFaces(TestDataStruct data) throws JSONException {
         String createFacesResult = tester.createPerson(data.get(0), data.get(1), data.get(2));
+        personIdList.add(SystemHelper.getPersonIdByJsonResult(createFacesResult));
         PersonIdFaceIdData PersonData = new PersonIdFaceIdData();
         PersonData.setPersonId(SystemHelper.getPersonIdByJsonResult(createFacesResult));
         PersonData.setFaceId(SystemHelper.getFaceIdByJsonResult(createFacesResult));
@@ -28,6 +29,7 @@ public class PersonApiRemoveFace {
 
     @Test(dependsOnMethods = "createFaces")
     public void testRemoveFace(){
+        System.out.println("testing remove face");
         for (int i=0;i< personIdFaceIdList.size();i++){
             tester.removeFace(personIdFaceIdList.get(i).getPersonId(),personIdFaceIdList.get(i).getFaceId());
             try {
@@ -44,9 +46,10 @@ public class PersonApiRemoveFace {
     }
 
 
+
     @AfterClass
     public void tearDown() {
-
+        SystemHelper.cleanUp(personIdList, tester);
     }
 
     @BeforeClass

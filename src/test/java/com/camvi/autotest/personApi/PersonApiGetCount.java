@@ -17,6 +17,7 @@ public class PersonApiGetCount {
 
     @Test
     public void testGetCount(){
+        System.out.println("testing get count");
         String result = tester.getCount("1");
         Assert.assertEquals(Integer.toString(personIdList.size()),result);
     }

@@ -66,7 +66,6 @@ public class BaseQuery {
             out.print(postData);
             out.close();
             int statusCode = urlConnection.getResponseCode();
-
             if (statusCode != HttpURLConnection.HTTP_OK) {
                 byte[] data = getResponseData(urlConnection, false);
                 System.out.println(new String(data, "UTF-8"));

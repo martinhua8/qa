@@ -25,6 +25,7 @@ public class PersonApiEnable {
     }
     @Test(dependsOnMethods = "Disable")
     public void testEnable() throws JSONException {
+        System.out.println("testing enable");
         for (int i = 0;i<personIdList.size();i++) {
             tester.enablePerson(personIdList.get(i).toString());
             String result = tester.query(personIdList.get((i)));

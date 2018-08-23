@@ -19,7 +19,9 @@ public class FaceRecApiSearch {
 
     @Test(dataProvider = "TestData")
     public void test(TestDataStruct data) throws JSONException {
-        String result = tester.searchFaceRec("0",data.get(0));
+        System.out.println(data.get(0));
+        String result = tester.searchFaceRec("1",data.get(0));
+        System.out.println(result);
         JSONArray jsonArray = new JSONArray(result);
         Assert.assertEquals("Unit_Test_001",jsonArray.getJSONObject(0).getString("name"));
     }
@@ -38,6 +40,11 @@ public class FaceRecApiSearch {
     @BeforeClass
     public void setUp() throws JSONException, InvalidFormatException, IOException {
         SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.xlsx", tester, personIdList);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 }

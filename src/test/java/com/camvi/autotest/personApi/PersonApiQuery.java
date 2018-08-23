@@ -18,6 +18,7 @@ public class PersonApiQuery {
 
     @Test(dataProvider = "TestData")
     public void testQuery(TestDataStruct data) throws JSONException {
+        System.out.println("testing query");
         String result = tester.query(personIdList.get(count++));
         Assert.assertEquals(data.get(0),SystemHelper.getPersonNameByJsonResult(result));
 

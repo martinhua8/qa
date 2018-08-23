@@ -1,6 +1,7 @@
 package com.camvi.autotest.personApi;
 
 import com.camvi.autotest.AutoTest;
+import com.camvi.autotest.BaseQuery;
 import com.camvi.autotest.SystemHelper;
 import com.camvi.autotest.TestDataStruct;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
@@ -47,7 +48,7 @@ public class PersonApiCreate {
     }
 
     @BeforeClass
-    public void beforeClass(TestDataStruct data) throws Exception {
+    public void beforeClass() throws Exception {
         System.out.println("PersonApiCreate test beforeClass");
     }
     @AfterMethod
@@ -58,5 +59,19 @@ public class PersonApiCreate {
     @BeforeMethod
     public void beforeMethod(){
         System.out.println("PersonApiCreate test BeforeMethod");
+    }
+
+
+    @BeforeSuite
+    public void beforeSuit(){
+//        System.out.println("----------beforeClass----------");
+//        //SystemHelper.runShellScript("src/test/testFile/testShelllScript/clearDB.sh");
+//        System.out.println("``````````````setServerBase`````````````````");
+//        BaseQuery.setServerBase("http://localhost:8080/service/api");
+//        if (!BaseQuery.login()) {
+//            return;
+//        }
+
+
     }
 }

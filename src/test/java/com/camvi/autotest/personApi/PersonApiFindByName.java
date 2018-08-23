@@ -32,6 +32,7 @@ public class PersonApiFindByName {
 
     @Test
     public void testDuplicateName() throws JSONException {
+        System.out.println("testing findbyname");
         String result = tester.findByName("Unit_Test");
         JSONArray jsonArray = new JSONArray(result);
         ArrayList<Integer> personIds = new ArrayList<>();

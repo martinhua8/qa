@@ -18,7 +18,9 @@ public class PersonApiFaceInfo {
 
     @Test(dataProvider = "TestData")
     public void createFaces(TestDataStruct data) throws JSONException {
+
         String createFacesResult = tester.createPerson(data.get(0), data.get(1), data.get(2));
+        personIdList.add(SystemHelper.getPersonIdByJsonResult(createFacesResult));
         PersonIdFaceIdData PersonData = new PersonIdFaceIdData();
         PersonData.setPersonId(SystemHelper.getPersonIdByJsonResult(createFacesResult));
         PersonData.setFaceId(SystemHelper.getFaceIdByJsonResult(createFacesResult));
@@ -27,6 +29,7 @@ public class PersonApiFaceInfo {
 
     @Test(dependsOnMethods = "createFaces")
     public void testFaceInfo() throws JSONException {
+        System.out.println("testing face info");
         for (int i=0;i< personIdFaceIdList.size();i++){
             String result = tester.faceInfo(personIdFaceIdList.get(i).getFaceId());
             Assert.assertEquals(personIdFaceIdList.get(i).getPersonId(),SystemHelper.getPersonIdFromFaceInfo(result));
