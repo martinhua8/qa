@@ -26,6 +26,7 @@ public class GroupApiList {
 
     @AfterClass
     public void tearDown() {
+        SystemHelper.cleanUp(personIdList, tester);
         tester.deleteGroup(Integer.toString(groupId));
     }
 
