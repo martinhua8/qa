@@ -1,7 +1,7 @@
 # CamviTest
 
 
-One Paragraph of project description goes here
+Camvi test system
 
 ## Getting Started
 
