@@ -43,7 +43,8 @@ public class AppTest {
 
         boolean setUpLibrary = false;
         if (setUpLibrary) {
-            SystemHelper.setUpStandardPicLibrary("src/test/testFile/testData/standardPicLibrary.xlsx");
+            //SystemHelper.setUpStandardPicLibrary("src/test/testFile/testData/standardPicLibrary.xlsx");
+        	SystemHelper.setUpStandardPicLibrary("src/test/testFile/testData/standardPicLibrary.csv");
         }
 
     }

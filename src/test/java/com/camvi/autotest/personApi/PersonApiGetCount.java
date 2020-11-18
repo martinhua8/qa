@@ -15,7 +15,7 @@ public class PersonApiGetCount {
     private AutoTest tester = new AutoTest(null, null);
     private ArrayList<Integer> personIdList = new ArrayList<>();
 
-    @Test
+    @Test(enabled=false)
     public void testGetCount(){
         System.out.println("testing get count");
         String result = tester.getCount("1");
@@ -29,6 +29,7 @@ public class PersonApiGetCount {
 
     @BeforeClass
     public void setUp() throws JSONException, InvalidFormatException, IOException {
-        SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.xlsx", tester, personIdList);
+        //SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.xlsx", tester, personIdList);
+    	SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.csv", tester, personIdList);
     }
 }

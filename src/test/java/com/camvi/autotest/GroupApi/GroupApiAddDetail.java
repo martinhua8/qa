@@ -27,8 +27,8 @@ public class GroupApiAddDetail {
         Assert.assertEquals("Test_Key",jsonArray.getJSONObject(0).get("key"));
         Assert.assertEquals("Test_Value",jsonArray.getJSONObject(0).get("value"));
         System.out.println("-------------------------");
-        tester.deleteAttribute("Test_Key");
-        System.out.println("-------------------------");
+        //tester.deleteAttribute("Test_Key"); -- Fails because the attribute is in use
+        //System.out.println("-------------------------");
     }
 
     @AfterClass
@@ -45,7 +45,7 @@ public class GroupApiAddDetail {
         tester.deleteAttribute("Test_Key");
         tester.createAttribute("Test_Key","CharType","GroupCat");
 
-        String result = tester.createGroup("Test_Group");
+        String result = tester.createGroup("my_very_own_unit_test_group");
         groupId = Integer.toString(SystemHelper.getGroupIdByJsonResult(result)) ;
     }
 }

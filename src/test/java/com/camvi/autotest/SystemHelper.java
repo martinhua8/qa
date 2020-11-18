@@ -79,7 +79,7 @@ public class SystemHelper {
 
 
     public static void setUpStandardPicLibrary(String file) throws IOException, InvalidFormatException {
-        LinkedList<AddLocalImageDataStruct> list = GetExccelInfo.getExcelInfoWithoutFistRow(file);
+        LinkedList<AddLocalImageDataStruct> list = ReadCSVData.getCSVInfoWithoutFistRow(file); //GetExccelInfo.getExcelInfoWithoutFistRow(file);
 
         for (AddLocalImageDataStruct data : list
                 ) {
@@ -159,7 +159,8 @@ public class SystemHelper {
     }
     public static Object[][] getTestData(String file) throws IOException, InvalidFormatException {
         LinkedList<TestDataStruct> list;
-        list = GetExccelInfo.getStringListFromExcelWithoutFistRow(file);
+        //list = GetExccelInfo.getStringListFromExcelWithoutFistRow(file);
+        list = ReadCSVData.getStringListFromCSVWithoutFistRow(file);
         int size = list.size();
         Object[][] objects = new Object[size][1];
         for(int i = 0;i<size;i++){
@@ -174,7 +175,7 @@ public class SystemHelper {
         }
         System.out.println("Finish clean up !!");
     }
-
+/*
     public static void cleanUp(String filePath) throws JSONException, IOException, InvalidFormatException {
         AutoTest tester2 = new AutoTest(null, null);
         System.out.println("clean up begin");
@@ -189,5 +190,6 @@ public class SystemHelper {
         }
         System.out.println("Finish clean up !!");
     }
+    */
 
 }

@@ -43,8 +43,9 @@ public class GroupApiAppendPerson {
 
     @BeforeClass
     public void setUp() throws JSONException, InvalidFormatException, IOException {
-        SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.xlsx", tester, personIdList);
-        String result = tester.createGroup("Test_Group");
+        //SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.xlsx", tester, personIdList);
+    	SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.csv", tester, personIdList);
+        String result = tester.createGroup("my_very_own_unit_test_group");
         groupId = SystemHelper.getGroupIdByJsonResult(result);
     }
 }

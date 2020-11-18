@@ -19,29 +19,31 @@ public class GroupApiDelete {
     public void create(TestDataStruct data) throws JSONException {
         String result = tester.createGroup(data.get(0));
         groupIdList.add(SystemHelper.getGroupIdByJsonResult(result));
+        System.out.println("in create - result=" + result);
     }
 
     @Test(dependsOnMethods = "create")
     public void test() throws Exception {
         for(int i = 0;i<groupIdList.size();i++){
             tester.deleteGroup(groupIdList.get(i).toString());
-            String reslut =  tester.queryGroup(groupIdList.get(i).toString());
+            String result =  tester.queryGroup(groupIdList.get(i).toString());
             // return code 1002 Invalid group Id
-            Assert.assertEquals("1002",SystemHelper.getCodeByJsonResult(reslut));
+            Assert.assertEquals("1002",SystemHelper.getCodeByJsonResult(result));
         }
     }
 
     @DataProvider(name = "TestData")
     public static Object[][] objectTestData() throws IOException, InvalidFormatException {
-        return SystemHelper.getTestData("src/test/testFile/testData/GroupManagementAPI/testCreateGroup.xlsx");
+        //return SystemHelper.getTestData("src/test/testFile/testData/GroupManagementAPI/testCreateGroup.xlsx");
+    	return SystemHelper.getTestData("src/test/testFile/testData/GroupManagementAPI/testCreateGroup.csv");
     }
 
 
     @AfterClass
     public void tearDown() {
-        for(int i = 0;i<groupIdList.size();i++){
-            tester.deleteGroup(groupIdList.get(i).toString());
-        }
+        //for(int i = 0;i<groupIdList.size();i++){
+        //    tester.deleteGroup(groupIdList.get(i).toString());
+        //}
     }
 
 

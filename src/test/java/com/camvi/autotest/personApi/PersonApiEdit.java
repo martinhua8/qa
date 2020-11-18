@@ -34,6 +34,7 @@ public class PersonApiEdit {
 
     @BeforeClass
     public void setUp() throws JSONException, InvalidFormatException, IOException {
-        SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.xlsx", tester, personIdList);
+        //SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.xlsx", tester, personIdList);
+    	SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.csv", tester, personIdList);
     }
 }

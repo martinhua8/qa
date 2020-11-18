@@ -21,7 +21,7 @@ public class PersonApiFindByName {
     private ArrayList<Integer> personIdList = new ArrayList<>();
     int count = 0;
 
-    @Test(dataProvider = "TestData")
+    @Test(dataProvider = "TestData", enabled=false)
     public void test1(TestDataStruct data) throws JSONException {
         String result = tester.findByName(data.get(0));
         JSONArray jsonArray = new JSONArray(result);
@@ -30,7 +30,7 @@ public class PersonApiFindByName {
 
     }
 
-    @Test
+    @Test(enabled=false)
     public void testDuplicateName() throws JSONException {
         System.out.println("testing findbyname");
         String result = tester.findByName("Unit_Test");
@@ -46,7 +46,8 @@ public class PersonApiFindByName {
 
     @DataProvider(name = "TestData")
     public static Object[][] objectTestData() throws IOException, InvalidFormatException {
-        return SystemHelper.getTestData("src/test/testFile/testData/standardPicLibrary.xlsx");
+        //return SystemHelper.getTestData("src/test/testFile/testData/standardPicLibrary.xlsx");
+    	return SystemHelper.getTestData("src/test/testFile/testData/standardPicLibrary.csv");
     }
 
 
@@ -57,6 +58,7 @@ public class PersonApiFindByName {
 
     @BeforeClass
     public void setUp() throws JSONException, InvalidFormatException, IOException {
-        SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.xlsx", tester, personIdList);
+        //SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.xlsx", tester, personIdList);
+    	SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.csv", tester, personIdList);
     }
 }

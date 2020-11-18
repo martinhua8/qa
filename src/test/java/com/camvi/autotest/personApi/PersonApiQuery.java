@@ -26,7 +26,8 @@ public class PersonApiQuery {
 
     @DataProvider(name = "TestData")
     public static Object[][] objectTestData() throws IOException, InvalidFormatException {
-        return SystemHelper.getTestData("src/test/testFile/testData/standardPicLibrary.xlsx");
+        //return SystemHelper.getTestData("src/test/testFile/testData/standardPicLibrary.xlsx");
+    	return SystemHelper.getTestData("src/test/testFile/testData/standardPicLibrary.csv");
     }
 
 
@@ -37,6 +38,7 @@ public class PersonApiQuery {
 
     @BeforeClass
     public void setUp() throws JSONException, InvalidFormatException, IOException {
-        SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.xlsx", tester, personIdList);
+        //SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.xlsx", tester, personIdList);
+    	SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.csv", tester, personIdList);
     }
 }

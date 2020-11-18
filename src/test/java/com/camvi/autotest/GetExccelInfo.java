@@ -10,7 +10,8 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 public class GetExccelInfo {
-    static void getExcelInfo(String filePath) throws IOException, InvalidFormatException {
+	
+    static void getExcelInfo_XXXX(String filePath) throws IOException, InvalidFormatException {
         Workbook workbook = WorkbookFactory.create(new File(filePath));
 
         // Iterating over all the sheets in the workbook
@@ -53,7 +54,7 @@ public class GetExccelInfo {
     }
 
 
-    public static LinkedList<String> getNameFromExcel(String filePath) throws IOException, InvalidFormatException {
+    public static LinkedList<String> getNameFromExcel_XXXX(String filePath) throws IOException, InvalidFormatException {
         Workbook workbook = WorkbookFactory.create(new File(filePath));
         Sheet sheet = workbook.getSheetAt(0);
         DataFormatter dataFormatter = new DataFormatter();
@@ -76,7 +77,7 @@ public class GetExccelInfo {
         return list;
     }
 
-    static LinkedList<AddLocalImageDataStruct> getExcelInfoWithoutFistRow(String filePath) throws IOException, InvalidFormatException {
+    static LinkedList<AddLocalImageDataStruct> getExcelInfoWithoutFistRow_XXXX(String filePath) throws IOException, InvalidFormatException {
         Workbook workbook = WorkbookFactory.create(new File(filePath));
 
         // Iterating over all the sheets in the workbook
@@ -128,7 +129,7 @@ public class GetExccelInfo {
     }
 
 
-    public static LinkedList<TestDataStruct> getStringListFromExcelWithoutFistRow(String filePath) throws IOException, InvalidFormatException {
+    public static LinkedList<TestDataStruct> getStringListFromExcelWithoutFistRow_XXXX(String filePath) throws IOException, InvalidFormatException {
         Workbook workbook = WorkbookFactory.create(new File(filePath));
         // Getting the Sheet at index zero
         Sheet sheet = workbook.getSheetAt(0);

@@ -28,7 +28,7 @@ public class PersonApiRemoveDetail {
         Assert.assertEquals("Test_Value",jsonArray.getJSONObject(0).getString("value"));
         //------------------
         result = tester.removeDetail(personIdList.get(0).toString(),"Test_Key");
-        Assert.assertEquals("Test_Key",new JSONObject(result).getString("key removed"));
+        Assert.assertEquals("Test_Key",new JSONObject(result).getString("key-removed"));
         result = tester.query(personIdList.get(0));
         jsonObject = new JSONObject(result);
         jsonArray =jsonObject.getJSONArray("details");
@@ -47,7 +47,8 @@ public class PersonApiRemoveDetail {
 
     @BeforeClass
     public void setUp() throws JSONException, InvalidFormatException, IOException {
-        SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.xlsx", tester, personIdList);
+        //SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.xlsx", tester, personIdList);
+    	SystemHelper.setUp("src/test/testFile/testData/standardPicLibrary.csv", tester, personIdList);
         tester.createAttribute("Test_Key","CharType","PersonCat");
     }
 }

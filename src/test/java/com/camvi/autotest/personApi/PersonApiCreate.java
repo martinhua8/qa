@@ -29,7 +29,8 @@ public class PersonApiCreate {
 
     @DataProvider(name="PersonApiCreateTestData")
     public static Object[][] objectTestData() throws IOException, InvalidFormatException {
-        return SystemHelper.getTestData("src/test/testFile/testData/standardPicLibrary.xlsx");
+    	return SystemHelper.getTestData("src/test/testFile/testData/standardPicLibraryCSV.csv");
+        //return SystemHelper.getTestData("src/test/testFile/testData/standardPicLibrary.xlsx");
 
 //
 //        Object[][] aa =  new Object[][] {

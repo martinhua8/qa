@@ -1,20 +1,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="TestSuit1">
+<suite name="TestSuite1">
 
-    <test name="test1">
-        <classes>
-            <class name="com.camvi.autotest.CamviTestNGPlatform"/>
-            <class name="com.camvi.autotest.FaceRecApi.FaceRecApiSearch"/>
-
-        </classes>
-    </test>
-    <test name="package">
+	<test name="person">
+		<classes>
+			<class name="com.camvi.autotest.CamviTestNGPlatform"/>
+			<class name="com.camvi.autotest.personApi.PersonApiList"/>			
+		</classes>
+	</test>
+	<test name="package">
         <packages>
-            <package name="com.camvi.autotest.FaceRecApi.*"/>
+            <package name="com.camvi.autotest.personApi.*"/>
         </packages>
     </test>
-
-
+    
 </suite>
 

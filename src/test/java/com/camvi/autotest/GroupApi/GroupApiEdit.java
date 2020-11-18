@@ -19,9 +19,9 @@ public class GroupApiEdit {
 
     @Test
     public void test() throws JSONException {
-        tester.editGroup(Integer.toString(groupId),"Test_Group2");
+        tester.editGroup(Integer.toString(groupId),"my_very_own_unit_test_group_2");
         String result = tester.queryGroup(Integer.toString(groupId));
-        Assert.assertEquals("Test_Group2",new JSONObject(result).get("name").toString());
+        Assert.assertEquals("my_very_own_unit_test_group_2",new JSONObject(result).get("name").toString());
     }
 
 
@@ -32,7 +32,7 @@ public class GroupApiEdit {
 
     @BeforeClass
     public void setUp() throws JSONException, InvalidFormatException, IOException {
-        String result = tester.createGroup("Test_Group");
+        String result = tester.createGroup("my_very_own_unit_test_group");
         groupId = SystemHelper.getGroupIdByJsonResult(result);
     }
 }

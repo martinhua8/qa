@@ -24,6 +24,7 @@ public class FaceRecApiCheckQuality {
 
     @DataProvider(name = "TestData")
     public static Object[][] objectTestData() throws IOException, InvalidFormatException {
-        return SystemHelper.getTestData("src/test/testFile/testData/PersonFaceManagementAPI/testAppendFace.xlsx");
+        //return SystemHelper.getTestData("src/test/testFile/testData/PersonFaceManagementAPI/testAppendFace.xlsx");
+    	return SystemHelper.getTestData("src/test/testFile/testData/PersonFaceManagementAPI/testAppendFace.csv");
     }
 }

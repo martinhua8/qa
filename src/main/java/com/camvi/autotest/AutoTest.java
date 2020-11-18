@@ -403,7 +403,7 @@ public class AutoTest extends BaseQuery implements Runnable {
             params.put("checkdupe", "true");
             params.put("checkporn", "true");
             byte[] resp = doPost("/person/create", params);
-            System.out.println("RESULT: " + new String(resp, "UTF-8"));
+            //System.out.println("RESULT: " + new String(resp, "UTF-8"));
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         } catch (Exception e) {
@@ -420,7 +420,7 @@ public class AutoTest extends BaseQuery implements Runnable {
             params.put("group-ids", groupId);
             params.put("image-data", toBase64Image(img1));
             byte[] resp = doPost("/person/create", params);
-            System.out.println("RESULT: " + new String(resp, "UTF-8"));
+            //System.out.println("RESULT: " + new String(resp, "UTF-8"));
             resp2 = new String(resp, "UTF-8");
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
@@ -469,7 +469,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         params.put("image-data-2", imgStr2);
         try {
             byte[] resp = doPost("/compare", params);
-            System.out.println(new String(resp, "UTF-8"));
+            //System.out.println(new String(resp, "UTF-8"));
             resp2 = new String(resp, "UTF-8");
         } catch (UnsupportedEncodingException e) {
             System.out.println(e.getMessage());
@@ -501,7 +501,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         params.put("image-data", imgStr);
         try {
             byte[] resp = doPost("/checkquality", params);
-            System.out.println(new String(resp, "UTF-8"));
+            //System.out.println(new String(resp, "UTF-8"));
             resp2 = new String(resp, "UTF-8");
         } catch (UnsupportedEncodingException e) {
             System.out.println(e.getMessage());
@@ -534,7 +534,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         params.put("image-data", imgStr);
         try {
             byte[] resp = doPost("/search", params);
-            System.out.println("search response: " + new String(resp, "UTF-8"));
+            //System.out.println("search response: " + new String(resp, "UTF-8"));
             resp2 = new String(resp, "UTF-8");
         } catch (UnsupportedEncodingException e) {
             System.out.println(e.getMessage());
@@ -567,7 +567,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         params.put("image-data", imgStr);
         try {
             byte[] resp = doPost("/recognize", params);
-            System.out.println("search response: " + new String(resp, "UTF-8"));
+            //System.out.println("search response: " + new String(resp, "UTF-8"));
             resp2 = new String(resp, "UTF-8");
         } catch (UnsupportedEncodingException e) {
             System.out.println(e.getMessage());
@@ -600,7 +600,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         params.put("image-data", imgStr);
         try {
             byte[] resp = doPost("/verify", params);
-            System.out.println("search response: " + new String(resp, "UTF-8"));
+            //System.out.println("search response: " + new String(resp, "UTF-8"));
             resp2 = new String(resp, "UTF-8");
         } catch (UnsupportedEncodingException e) {
             System.out.println(e.getMessage());
@@ -619,7 +619,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         String resp = "";
         try {
             resp = new String(doPost("/image/list", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
             return resp;
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -635,7 +635,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         String resp = "";
         try {
             resp = new String(doPost("/image/delete", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
             return resp;
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -653,7 +653,7 @@ public class AutoTest extends BaseQuery implements Runnable {
             params.put("tag", tag);
             params.put("image-data", toBase64Image(img1));
             byte[] resp = doPost("/image/detect", params);
-            System.out.println("search response: " + new String(resp, "UTF-8"));
+            //System.out.println("search response: " + new String(resp, "UTF-8"));
             resp2 = new String(resp, "UTF-8");
         } catch (UnsupportedEncodingException e) {
             System.out.println(e.getMessage());
@@ -672,14 +672,14 @@ public class AutoTest extends BaseQuery implements Runnable {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        System.out.println("RESULT: " + resp);
+        //System.out.println("RESULT: " + resp);
         return resp;
     }
     //query the properties of a face image
     public String faceInfoWithoutTryCatch(int faceId) throws Exception {
         String resp = "";
             resp = new String(doGet("/person/face-info?face-id=" + faceId));
-        System.out.println("RESULT: " + resp);
+        //System.out.println("RESULT: " + resp);
         return resp;
     }
 
@@ -692,13 +692,13 @@ public class AutoTest extends BaseQuery implements Runnable {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        System.out.println("RESULT: " + resp);
+        //System.out.println("RESULT: " + resp);
         return resp;
     }
     public String queryWithoutTryCatch(int personId) throws Exception {
         String resp = "";
         resp = new String(doGet("/person/query?person-id=" + personId));
-        System.out.println("RESULT: " + resp);
+        //System.out.println("RESULT: " + resp);
         return resp;
     }
 
@@ -710,7 +710,7 @@ public class AutoTest extends BaseQuery implements Runnable {
             params.put("person-id", Integer.toString(personId));
             params.put("image-data", toBase64Image(img1));
             byte[] resp = doPost("/person/append-face", params);
-            System.out.println("got response: " + new String(resp, "UTF-8"));
+            //System.out.println("got response: " + new String(resp, "UTF-8"));
             resp2 = new String(resp, "UTF-8");
             return resp2;
 
@@ -730,7 +730,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         String resp = "";
         try {
             resp = new String(doPost("/person/find-by-name", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
             return resp;
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -746,7 +746,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         String resp = "";
         try {
             resp = new String(doPost("/person/clear", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
             return resp;
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -762,7 +762,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         String resp = "";
         try {
             resp = new String(doPost("/person/remove-face", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
             return resp;
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -778,7 +778,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         try {
             resp = new String(doPost("/person/delete", params));
             //String resp = new String(doGet("/person/create?person-name=testadd&server-image-file="+URLEncoder.encode(imageFile)));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
             return resp;
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -799,7 +799,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         try {
             resp = new String(doPost("/person/create", params));
             //String resp = new String(doGet("/person/create?person-name=testadd&server-image-file="+URLEncoder.encode(imageFile)));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
             return resp;
         } catch (Exception e) {
             System.out.println("Error registerPerson: " + e.getMessage());
@@ -817,7 +817,7 @@ public class AutoTest extends BaseQuery implements Runnable {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        System.out.println("RESULT: " + resp);
+        //System.out.println("RESULT: " + resp);
     }
 
     public void getAttributeList() {
@@ -828,7 +828,7 @@ public class AutoTest extends BaseQuery implements Runnable {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        System.out.println("RESULT: " + resp);
+        //System.out.println("RESULT: " + resp);
     }
 
     public void setLogDetail() {
@@ -840,7 +840,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         try {
             String resp;
             resp = new String(doPost("/log/set-attr", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error create attribute: " + e.getMessage());
             e.printStackTrace();
@@ -855,7 +855,7 @@ public class AutoTest extends BaseQuery implements Runnable {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        System.out.println("RESULT: " + resp);
+        //System.out.println("RESULT: " + resp);
     }
 
     public void getListNextPerson(long personId, int count) {
@@ -876,7 +876,7 @@ public class AutoTest extends BaseQuery implements Runnable {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        System.out.println("RESULT: " + resp);
+        //System.out.println("RESULT: " + resp);
     }
 
     public void getGroupInfo2(int groupId) {
@@ -887,7 +887,7 @@ public class AutoTest extends BaseQuery implements Runnable {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        System.out.println("RESULT: " + resp);
+        //System.out.println("RESULT: " + resp);
     }
 
     public void setNotificationUrl(String url) {
@@ -897,7 +897,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         byte[] resp;
         try {
             resp = doPost("/manage/set/subscriber", params);
-            System.out.println("search response: " + new String(resp, "UTF-8"));
+            //System.out.println("search response: " + new String(resp, "UTF-8"));
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -935,27 +935,27 @@ public class AutoTest extends BaseQuery implements Runnable {
         try {
             String resp;
             resp = new String(doPost("/person/set-attr", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
 
             params = new HashMap<String, String>();
             params.put("person-id", personId);
             params.put("key", "age");
             params.put("value", "40");
             resp = new String(doPost("/person/set-attr", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
 
             resp = new String(doGet("/person/query?person-id=" + personId));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
 
             params = new HashMap<String, String>();
             params.put("person-id", personId);
             params.put("key", "age");
             params.put("value", "45");
             resp = new String(doPost("/person/set-attr", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
 
             resp = new String(doGet("/person/query?person-id=" + personId));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
 
             /*params = new HashMap<String, String>();
             params.put("person-id", personId);
@@ -965,7 +965,7 @@ public class AutoTest extends BaseQuery implements Runnable {
             System.out.println("RESULT: " + resp);*/
 
             resp = new String(doGet("/person/query?person-id=" + personId));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
 
         } catch (Exception e) {
             System.out.println("Error create attribute: " + e.getMessage());
@@ -980,7 +980,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         try {
             String resp;
             resp = new String(doPost("/person/enable", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error create attribute: " + e.getMessage());
             e.printStackTrace();
@@ -997,14 +997,14 @@ public class AutoTest extends BaseQuery implements Runnable {
         try {
             String resp;
             resp = new String(doPost("/person/set-attr", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
 
             params = new HashMap<String, String>();
             params.put("person-id", personId);
             params.put("key", "expiration");
             params.put("value", "2018-04-30");
             resp = new String(doPost("/person/set-attr", params));
-            System.out.println("RESULT: " + resp);
+           // System.out.println("RESULT: " + resp);
 
             /*params = new HashMap<String, String>();
             params.put("person-id", personId);
@@ -1012,7 +1012,7 @@ public class AutoTest extends BaseQuery implements Runnable {
             System.out.println("RESULT: " + resp);*/
 
             resp = new String(doGet("/person/query?person-id=" + personId));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error create attribute: " + e.getMessage());
             e.printStackTrace();
@@ -1026,7 +1026,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         try {
 
             resp = new String(doPost("/person/disable", params));
-            System.out.println("RESULT: " + resp);
+           // System.out.println("RESULT: " + resp);
 
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
@@ -1042,7 +1042,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         try {
 
             resp = new String(doPost("/person/enable", params));
-            System.out.println("RESULT: " + resp);
+           // System.out.println("RESULT: " + resp);
 
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
@@ -1060,7 +1060,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         try {
 
             resp = new String(doPost("/person/remove-attr", params));
-            System.out.println("RESULT: " + resp);
+           // System.out.println("RESULT: " + resp);
 
 
         } catch (Exception e) {
@@ -1078,10 +1078,10 @@ public class AutoTest extends BaseQuery implements Runnable {
         try {
             String resp;
             resp = new String(doPost("/person/remove-attr", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
 
             resp = new String(doGet("/person/query?person-id=" + personId));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error remove attribute: " + e.getMessage());
             e.printStackTrace();
@@ -1097,7 +1097,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             resp = new String(doPost("/attribute/create", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
 
 
         } catch (Exception e) {
@@ -1115,7 +1115,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             String resp = new String(doPost("/attribute/create", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
 
             params = new HashMap<String, String>();
             params.put("key", "Country");
@@ -1123,7 +1123,7 @@ public class AutoTest extends BaseQuery implements Runnable {
             params.put("category", "PersonCat");
 
             resp = new String(doPost("/attribute/create", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
 
             params = new HashMap<String, String>();
             params.put("key", "Height");
@@ -1131,7 +1131,7 @@ public class AutoTest extends BaseQuery implements Runnable {
             params.put("category", "PersonCat");
 
             resp = new String(doPost("/attribute/create", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
 
             params = new HashMap<String, String>();
             params.put("key", "Note");
@@ -1139,7 +1139,7 @@ public class AutoTest extends BaseQuery implements Runnable {
             params.put("category", "FaceCat");
 
             resp = new String(doPost("/attribute/create", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
 
             params = new HashMap<String, String>();
             params.put("key", "Event");
@@ -1147,7 +1147,7 @@ public class AutoTest extends BaseQuery implements Runnable {
             params.put("category", "FaceCat");
 
             resp = new String(doPost("/attribute/create", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
 
             params = new HashMap<String, String>();
             params.put("key", "Region");
@@ -1155,7 +1155,7 @@ public class AutoTest extends BaseQuery implements Runnable {
             params.put("category", "GroupCat");
 
             resp = new String(doPost("/attribute/create", params));
-            System.out.println("RESULT: " + resp);
+           // System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error create attribute: " + e.getMessage());
             e.printStackTrace();
@@ -1169,7 +1169,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             resp = new String(doPost("/attribute/delete", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error deleting attribute: " + e.getMessage());
             e.printStackTrace();
@@ -1183,7 +1183,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             String resp = new String(doPost("/attribute/delete", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error deleting attribute: " + e.getMessage());
             e.printStackTrace();
@@ -1198,7 +1198,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             resp = new String(doGet("/attribute/list"));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error" + e.getMessage());
             e.printStackTrace();
@@ -1213,7 +1213,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             resp = new String(doPost("/person/list", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error" + e.getMessage());
             e.printStackTrace();
@@ -1228,7 +1228,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             resp = new String(doPost("/person/person-count", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error" + e.getMessage());
             e.printStackTrace();
@@ -1240,10 +1240,10 @@ public class AutoTest extends BaseQuery implements Runnable {
         try {
             byte[] buffer = doGet("/person/face-feature/" + id + "");
             float[] fArr = new float[buffer.length / 4];  // 4 bytes per float
-            System.out.println("feature float:");
+            //System.out.println("feature float:");
             for (int i = 0; i < fArr.length; i++) {
                 fArr[i] = ByteBuffer.wrap(buffer, i * 4, 4).order(ByteOrder.LITTLE_ENDIAN).getFloat();
-                System.out.println(fArr[i]);
+                //System.out.println(fArr[i]);
             }
             // System.out.println("RESULT: " + resp);
         } catch (Exception e) {
@@ -1260,7 +1260,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             resp = new String(doPost("/group/create", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error" + e.getMessage());
             e.printStackTrace();
@@ -1275,7 +1275,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             resp = new String(doPost("/group/delete", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error" + e.getMessage());
             e.printStackTrace();
@@ -1291,7 +1291,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             resp = new String(doPost("/group/append-person", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error" + e.getMessage());
             e.printStackTrace();
@@ -1307,7 +1307,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             resp = new String(doPost("/group/remove-person", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error" + e.getMessage());
             e.printStackTrace();
@@ -1322,7 +1322,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             resp = new String(doPost("/group/clear", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error" + e.getMessage());
             e.printStackTrace();
@@ -1338,7 +1338,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             resp = new String(doPost("/group/edit", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error" + e.getMessage());
             e.printStackTrace();
@@ -1353,7 +1353,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             resp = new String(doPost("/group/query", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error" + e.getMessage());
             e.printStackTrace();
@@ -1366,7 +1366,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         params.put("group-id", groupId);
         String resp = "";
         resp = new String(doPost("/group/query", params));
-        System.out.println("RESULT: " + resp);
+        //System.out.println("RESULT: " + resp);
         return resp;
     }
 
@@ -1377,7 +1377,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             resp = new String(doPost("/group/get-info", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error" + e.getMessage());
             e.printStackTrace();
@@ -1392,7 +1392,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             resp = new String(doGet("/group/list"));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error" + e.getMessage());
             e.printStackTrace();
@@ -1409,7 +1409,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             resp = new String(doPost("/group/set-attr", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
 
 
         } catch (Exception e) {
@@ -1427,7 +1427,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             resp = new String(doPost("/group/remove-attr", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
 
 
         } catch (Exception e) {
@@ -1442,7 +1442,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         String resp = "";
         try {
             resp = new String(doGet("/log/retrieve"));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error" + e.getMessage());
             e.printStackTrace();
@@ -1459,7 +1459,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             resp = new String(doPost("/log/set-attr", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
 
 
         } catch (Exception e) {
@@ -1632,7 +1632,7 @@ public class AutoTest extends BaseQuery implements Runnable {
             params.put("image-data", imgStr);
             try {
                 byte[] resp = doPost("/verify", params);
-                System.out.println("search response: " + new String(resp, "UTF-8"));
+                //System.out.println("search response: " + new String(resp, "UTF-8"));
             } catch (UnsupportedEncodingException e) {
                 System.out.println(e.getMessage());
             } catch (Exception e) {
@@ -1661,7 +1661,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             String resp = new String(doPost("/compare", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error compare: " + e.getMessage());
             e.printStackTrace();
@@ -1677,7 +1677,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         try {
             String resp = new String(doPost("/checkquality", params));
             //String resp = new String(doGet("/person/create?person-name=testadd&server-image-file="+URLEncoder.encode(imageFile)));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error checkForDup: " + e.getMessage());
             e.printStackTrace();
@@ -1691,7 +1691,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         try {
             String resp = new String(doPost("/checkdupe", params));
             //String resp = new String(doGet("/person/create?person-name=testadd&server-image-file="+URLEncoder.encode(imageFile)));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error checkForDupe: " + e.getMessage());
             e.printStackTrace();
@@ -1704,7 +1704,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         try {
             String resp = new String(doPost("/person/remove-if-nsfw/" + faceId, params));
             //String resp = new String(doGet("/person/create?person-name=testadd&server-image-file="+URLEncoder.encode(imageFile)));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
             if (resp.contains("NSFW")) {
                 AutoTest.s_totalNsfwRemoved.incrementAndGet();
             }
@@ -1724,7 +1724,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         try {
             String resp = new String(doPost("/group/create", params));
             //String resp = new String(doGet("/person/create?person-name=testadd&server-image-file="+URLEncoder.encode(imageFile)));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error testAddGroup: " + e.getMessage());
             e.printStackTrace();
@@ -1738,7 +1738,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         try {
             String resp = new String(doPost("/group/append-person", params));
             //String resp = new String(doGet("/person/create?person-name=testadd&server-image-file="+URLEncoder.encode(imageFile)));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error testAddGroup: " + e.getMessage());
             e.printStackTrace();
@@ -1752,7 +1752,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         params.put("value", "NorthEast");
         try {
             String resp = new String(doPost("/group/set-attr", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error testAddDetailToGroup: " + e.getMessage());
             e.printStackTrace();
@@ -1765,7 +1765,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         params.put("group-id", Integer.toString(groupId));
         try {
             String resp = new String(doPost("/group/remove-attr", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error testRemoveAttrGroup: " + e.getMessage());
             e.printStackTrace();
@@ -1788,7 +1788,7 @@ public class AutoTest extends BaseQuery implements Runnable {
 
         try {
             String resp = new String(doPost("/compare", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error compare: " + e.getMessage());
             e.printStackTrace();
@@ -1822,7 +1822,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         try {
             String resp = new String(doPost("/person/create", params));
             //String resp = new String(doGet("/person/create?person-name=testadd&server-image-file="+URLEncoder.encode(imageFile)));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error registerPerson: " + e.getMessage());
             e.printStackTrace();
@@ -1834,7 +1834,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         params.put("person-id", Integer.toString(personId));
         try {
             String resp = new String(doPost("/person/refresh", params));
-            System.out.println("RESULT: " + resp);
+            //System.out.println("RESULT: " + resp);
         } catch (Exception e) {
             System.out.println("Error registerPerson: " + e.getMessage());
             e.printStackTrace();
@@ -1847,7 +1847,7 @@ public class AutoTest extends BaseQuery implements Runnable {
         params.put("image-url", imgUrl);
         try {
             byte[] resp = doPost("/image/detect", params);
-            System.out.println("search response: " + new String(resp, "UTF-8"));
+            //System.out.println("search response: " + new String(resp, "UTF-8"));
             //ObjectMapper mapper = new ObjectMapper();
             //List<SearchingResultItem> result = mapper.readValue(resp, new TypeReference<List<SearchingResultItem>>() {
             //});
@@ -1860,10 +1860,10 @@ public class AutoTest extends BaseQuery implements Runnable {
 
     public void submitGetRequest(String req, String method) {
         try {
-            System.out.println("1. Method/Params: " + method);
-            System.out.println("2. Request URL: " + req);
+            //System.out.println("1. Method/Params: " + method);
+            //System.out.println("2. Request URL: " + req);
             String resp = new String(doGet(req));
-            System.out.println("3. RESULT: " + resp);
+            //System.out.println("3. RESULT: " + resp);
         } catch (Exception e) {
             System.err.println("Exception:" + e.getMessage());
             e.printStackTrace();

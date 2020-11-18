@@ -25,7 +25,9 @@ public class GroupApiCreate {
 
     @DataProvider(name = "TestData")
     public static Object[][] objectTestData() throws IOException, InvalidFormatException {
-        return SystemHelper.getTestData("src/test/testFile/testData/GroupManagementAPI/testCreateGroup.xlsx");
+        //return SystemHelper.getTestData("src/test/testFile/testData/GroupManagementAPI/testCreateGroup.xlsx");
+        return SystemHelper.getTestData("src/test/testFile/testData/GroupManagementAPI/testCreateGroup.csv");
+
     }
 
 

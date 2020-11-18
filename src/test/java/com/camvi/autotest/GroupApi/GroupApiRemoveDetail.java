@@ -44,7 +44,7 @@ public class GroupApiRemoveDetail {
     public void setUp() throws JSONException, InvalidFormatException, IOException {
 
         tester.createAttribute("Test_Key","CharType","GroupCat");
-        String result = tester.createGroup("Test_Group");
+        String result = tester.createGroup("my_very_own_unit_test_group");
         groupId = Integer.toString(SystemHelper.getGroupIdByJsonResult(result)) ;
         tester.addDetailGroup(groupId,"Test_Key","Test_Value");
     }

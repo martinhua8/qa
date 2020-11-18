@@ -1,3 +1,4 @@
+#Key, type, category
 Country,CharType,PersonCat
 Note,CharType,FaceCat
 Region,CharType,GroupCat

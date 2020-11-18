@@ -30,7 +30,8 @@ public class TestCreateAndAppendNoFacePic {
 
     @DataProvider(name="TestData")
     public static Object[][] objectTestData() throws IOException, InvalidFormatException {
-        return SystemHelper.getTestData("src/test/testFile/testData/singlePerson.xlsx");
+        //return SystemHelper.getTestData("src/test/testFile/testData/singlePerson.xlsx");
+    	return SystemHelper.getTestData("src/test/testFile/testData/singlePerson.csv");
 
 
     }
