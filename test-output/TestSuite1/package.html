@@ -1,0 +1,404 @@
+<html>
+<head>
+<title>TestNG:  package</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>package</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>65/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 30 13:08:00 PST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>72 seconds (72750 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiEnable.Disable()'><b>Disable</b><br>Test class: com.camvi.autotest.personApi.PersonApiEnable</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiEnable@4c39bec8</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiClear.appendFace()'><b>appendFace</b><br>Test class: com.camvi.autotest.personApi.PersonApiClear<br>Parameters: com.camvi.autotest.TestDataStruct@3b6d844d</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiClear@291caca8</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiClear.appendFace()'><b>appendFace</b><br>Test class: com.camvi.autotest.personApi.PersonApiClear<br>Parameters: com.camvi.autotest.TestDataStruct@5c86dbc5</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiClear@291caca8</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiFaceInfo.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiFaceInfo<br>Parameters: com.camvi.autotest.TestDataStruct@5167f57d</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiFaceInfo@1e178745</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiFaceInfo.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiFaceInfo<br>Parameters: com.camvi.autotest.TestDataStruct@50f6ac94</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiFaceInfo@1e178745</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiFaceInfo.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiFaceInfo<br>Parameters: com.camvi.autotest.TestDataStruct@32115b28</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiFaceInfo@1e178745</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiFaceInfo.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiFaceInfo<br>Parameters: com.camvi.autotest.TestDataStruct@61710c6</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiFaceInfo@1e178745</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiFaceInfo.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiFaceInfo<br>Parameters: com.camvi.autotest.TestDataStruct@2bdd8394</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiFaceInfo@1e178745</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiFaceInfo.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiFaceInfo<br>Parameters: com.camvi.autotest.TestDataStruct@a8ef162</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiFaceInfo@1e178745</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiFaceInfo.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiFaceInfo<br>Parameters: com.camvi.autotest.TestDataStruct@18317edc</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiFaceInfo@1e178745</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiFaceInfo.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiFaceInfo<br>Parameters: com.camvi.autotest.TestDataStruct@9cb8225</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiFaceInfo@1e178745</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiFaceInfo.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiFaceInfo<br>Parameters: com.camvi.autotest.TestDataStruct@53f3bdbd</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiFaceInfo@1e178745</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiFaceInfo.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiFaceInfo<br>Parameters: com.camvi.autotest.TestDataStruct@3e62d773</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiFaceInfo@1e178745</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiRemoveFace.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiRemoveFace<br>Parameters: com.camvi.autotest.TestDataStruct@16eccb2e</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiRemoveFace@2e377400</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiRemoveFace.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiRemoveFace<br>Parameters: com.camvi.autotest.TestDataStruct@3697186</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiRemoveFace@2e377400</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiRemoveFace.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiRemoveFace<br>Parameters: com.camvi.autotest.TestDataStruct@2e48362c</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiRemoveFace@2e377400</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiRemoveFace.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiRemoveFace<br>Parameters: com.camvi.autotest.TestDataStruct@413f69cc</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiRemoveFace@2e377400</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiRemoveFace.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiRemoveFace<br>Parameters: com.camvi.autotest.TestDataStruct@c7ba306</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiRemoveFace@2e377400</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiRemoveFace.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiRemoveFace<br>Parameters: com.camvi.autotest.TestDataStruct@327bcebd</td>
+<td></td>
+<td>1</td>
+<td>com.camvi.autotest.personApi.PersonApiRemoveFace@2e377400</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiRemoveFace.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiRemoveFace<br>Parameters: com.camvi.autotest.TestDataStruct@12359a82</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiRemoveFace@2e377400</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiRemoveFace.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiRemoveFace<br>Parameters: com.camvi.autotest.TestDataStruct@3f91b517</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiRemoveFace@2e377400</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiRemoveFace.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiRemoveFace<br>Parameters: com.camvi.autotest.TestDataStruct@338c99c8</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiRemoveFace@2e377400</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiRemoveFace.createFaces()'><b>createFaces</b><br>Test class: com.camvi.autotest.personApi.PersonApiRemoveFace<br>Parameters: com.camvi.autotest.TestDataStruct@b4711e2</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiRemoveFace@2e377400</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiCreate.test()'><b>test</b><br>Test class: com.camvi.autotest.personApi.PersonApiCreate<br>Parameters: com.camvi.autotest.TestDataStruct@1cf56a1c</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiCreate@45b4c3a9</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiCreate.test()'><b>test</b><br>Test class: com.camvi.autotest.personApi.PersonApiCreate<br>Parameters: com.camvi.autotest.TestDataStruct@81d9a72</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiCreate@45b4c3a9</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiCreate.test()'><b>test</b><br>Test class: com.camvi.autotest.personApi.PersonApiCreate<br>Parameters: com.camvi.autotest.TestDataStruct@1ebea008</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiCreate@45b4c3a9</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiCreate.test()'><b>test</b><br>Test class: com.camvi.autotest.personApi.PersonApiCreate<br>Parameters: com.camvi.autotest.TestDataStruct@389b0789</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiCreate@45b4c3a9</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiCreate.test()'><b>test</b><br>Test class: com.camvi.autotest.personApi.PersonApiCreate<br>Parameters: com.camvi.autotest.TestDataStruct@2462cb01</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiCreate@45b4c3a9</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiCreate.test()'><b>test</b><br>Test class: com.camvi.autotest.personApi.PersonApiCreate<br>Parameters: com.camvi.autotest.TestDataStruct@6b0d80ed</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiCreate@45b4c3a9</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiCreate.test()'><b>test</b><br>Test class: com.camvi.autotest.personApi.PersonApiCreate<br>Parameters: com.camvi.autotest.TestDataStruct@57a3e26a</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiCreate@45b4c3a9</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiCreate.test()'><b>test</b><br>Test class: com.camvi.autotest.personApi.PersonApiCreate<br>Parameters: com.camvi.autotest.TestDataStruct@56dc1551</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiCreate@45b4c3a9</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiCreate.test()'><b>test</b><br>Test class: com.camvi.autotest.personApi.PersonApiCreate<br>Parameters: com.camvi.autotest.TestDataStruct@30b6ffe0</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiCreate@45b4c3a9</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiCreate.test()'><b>test</b><br>Test class: com.camvi.autotest.personApi.PersonApiCreate<br>Parameters: com.camvi.autotest.TestDataStruct@7ba8c737</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiCreate@45b4c3a9</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiClear.test()'><b>test</b><br>Test class: com.camvi.autotest.personApi.PersonApiClear</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiClear@291caca8</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiAddDetail.test()'><b>test</b><br>Test class: com.camvi.autotest.personApi.PersonApiAddDetail</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiAddDetail@399c4be1</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiRemoveDetail.test()'><b>test</b><br>Test class: com.camvi.autotest.personApi.PersonApiRemoveDetail</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiRemoveDetail@1f59a598</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiAppendFace.test()'><b>test</b><br>Test class: com.camvi.autotest.personApi.PersonApiAppendFace</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiAppendFace@561b6512</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiAppendFace.testAppendFace()'><b>testAppendFace</b><br>Test class: com.camvi.autotest.personApi.PersonApiAppendFace<br>Parameters: com.camvi.autotest.TestDataStruct@457c9034</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiAppendFace@561b6512</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiAppendFace.testAppendFace()'><b>testAppendFace</b><br>Test class: com.camvi.autotest.personApi.PersonApiAppendFace<br>Parameters: com.camvi.autotest.TestDataStruct@71e9ebae</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiAppendFace@561b6512</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiDelete.testCreate()'><b>testCreate</b><br>Test class: com.camvi.autotest.personApi.PersonApiDelete<br>Parameters: com.camvi.autotest.TestDataStruct@6d7fc27</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiDelete@26b3fd41</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiDelete.testCreate()'><b>testCreate</b><br>Test class: com.camvi.autotest.personApi.PersonApiDelete<br>Parameters: com.camvi.autotest.TestDataStruct@135606db</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiDelete@26b3fd41</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiDelete.testCreate()'><b>testCreate</b><br>Test class: com.camvi.autotest.personApi.PersonApiDelete<br>Parameters: com.camvi.autotest.TestDataStruct@68034211</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiDelete@26b3fd41</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiDelete.testCreate()'><b>testCreate</b><br>Test class: com.camvi.autotest.personApi.PersonApiDelete<br>Parameters: com.camvi.autotest.TestDataStruct@6c372fe6</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiDelete@26b3fd41</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiDelete.testCreate()'><b>testCreate</b><br>Test class: com.camvi.autotest.personApi.PersonApiDelete<br>Parameters: com.camvi.autotest.TestDataStruct@2a3888c1</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiDelete@26b3fd41</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiDelete.testCreate()'><b>testCreate</b><br>Test class: com.camvi.autotest.personApi.PersonApiDelete<br>Parameters: com.camvi.autotest.TestDataStruct@14fa86ae</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiDelete@26b3fd41</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiDelete.testCreate()'><b>testCreate</b><br>Test class: com.camvi.autotest.personApi.PersonApiDelete<br>Parameters: com.camvi.autotest.TestDataStruct@68f1b17f</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiDelete@26b3fd41</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiDelete.testCreate()'><b>testCreate</b><br>Test class: com.camvi.autotest.personApi.PersonApiDelete<br>Parameters: com.camvi.autotest.TestDataStruct@57ad2aa7</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiDelete@26b3fd41</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiDelete.testCreate()'><b>testCreate</b><br>Test class: com.camvi.autotest.personApi.PersonApiDelete<br>Parameters: com.camvi.autotest.TestDataStruct@3e2059ae</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiDelete@26b3fd41</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiDelete.testCreate()'><b>testCreate</b><br>Test class: com.camvi.autotest.personApi.PersonApiDelete<br>Parameters: com.camvi.autotest.TestDataStruct@7cb502c</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiDelete@26b3fd41</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiDelete.testDelete()'><b>testDelete</b><br>Test class: com.camvi.autotest.personApi.PersonApiDelete</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiDelete@26b3fd41</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiDisable.testDisable()'><b>testDisable</b><br>Test class: com.camvi.autotest.personApi.PersonApiDisable</td>
+<td></td>
+<td>1</td>
+<td>com.camvi.autotest.personApi.PersonApiDisable@6a2f6f80</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiEdit.testEdit()'><b>testEdit</b><br>Test class: com.camvi.autotest.personApi.PersonApiEdit</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiEdit@7494f96a</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiEnable.testEnable()'><b>testEnable</b><br>Test class: com.camvi.autotest.personApi.PersonApiEnable</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiEnable@4c39bec8</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiFaceInfo.testFaceInfo()'><b>testFaceInfo</b><br>Test class: com.camvi.autotest.personApi.PersonApiFaceInfo</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiFaceInfo@1e178745</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiQuery.testQuery()'><b>testQuery</b><br>Test class: com.camvi.autotest.personApi.PersonApiQuery<br>Parameters: com.camvi.autotest.TestDataStruct@5e403b4a</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiQuery@7ee8290b</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiQuery.testQuery()'><b>testQuery</b><br>Test class: com.camvi.autotest.personApi.PersonApiQuery<br>Parameters: com.camvi.autotest.TestDataStruct@5be49b60</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiQuery@7ee8290b</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiQuery.testQuery()'><b>testQuery</b><br>Test class: com.camvi.autotest.personApi.PersonApiQuery<br>Parameters: com.camvi.autotest.TestDataStruct@7674b62c</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiQuery@7ee8290b</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiQuery.testQuery()'><b>testQuery</b><br>Test class: com.camvi.autotest.personApi.PersonApiQuery<br>Parameters: com.camvi.autotest.TestDataStruct@662706a7</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiQuery@7ee8290b</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiQuery.testQuery()'><b>testQuery</b><br>Test class: com.camvi.autotest.personApi.PersonApiQuery<br>Parameters: com.camvi.autotest.TestDataStruct@16b2bb0c</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiQuery@7ee8290b</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiQuery.testQuery()'><b>testQuery</b><br>Test class: com.camvi.autotest.personApi.PersonApiQuery<br>Parameters: com.camvi.autotest.TestDataStruct@6cb6decd</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiQuery@7ee8290b</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiQuery.testQuery()'><b>testQuery</b><br>Test class: com.camvi.autotest.personApi.PersonApiQuery<br>Parameters: com.camvi.autotest.TestDataStruct@f99f5e0</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiQuery@7ee8290b</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiQuery.testQuery()'><b>testQuery</b><br>Test class: com.camvi.autotest.personApi.PersonApiQuery<br>Parameters: com.camvi.autotest.TestDataStruct@30bce90b</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiQuery@7ee8290b</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiQuery.testQuery()'><b>testQuery</b><br>Test class: com.camvi.autotest.personApi.PersonApiQuery<br>Parameters: com.camvi.autotest.TestDataStruct@7e19ebf0</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiQuery@7ee8290b</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiQuery.testQuery()'><b>testQuery</b><br>Test class: com.camvi.autotest.personApi.PersonApiQuery<br>Parameters: com.camvi.autotest.TestDataStruct@7357a011</td>
+<td></td>
+<td>0</td>
+<td>com.camvi.autotest.personApi.PersonApiQuery@7ee8290b</td></tr>
+<tr>
+<td title='com.camvi.autotest.personApi.PersonApiRemoveFace.testRemoveFace()'><b>testRemoveFace</b><br>Test class: com.camvi.autotest.personApi.PersonApiRemoveFace</td>
+<td></td>
+<td>1</td>
+<td>com.camvi.autotest.personApi.PersonApiRemoveFace@2e377400</td></tr>
+</table><p>
+</body>
+</html>

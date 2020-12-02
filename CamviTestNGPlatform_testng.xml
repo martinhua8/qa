@@ -5,7 +5,7 @@
 	<test name="person">
 		<classes>
 			<class name="com.camvi.autotest.CamviTestNGPlatform"/>
-			<class name="com.camvi.autotest.personApi.PersonApiList"/>			
+			<!-- class name="com.camvi.autotest.personApi.PersonApiList"/ -->			
 		</classes>
 	</test>
 	<test name="package">

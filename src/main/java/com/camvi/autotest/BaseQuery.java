@@ -27,7 +27,7 @@ public class BaseQuery {
     public static boolean login() {
         Map<String, String> params = new HashMap<String, String>();
         params.put("username", "admin");
-        params.put("password", Base64.getEncoder().encodeToString(new String("admin").getBytes()));
+        params.put("password", Base64.getEncoder().encodeToString(new String("admin12345").getBytes()));
 
         try {
             String resp;
